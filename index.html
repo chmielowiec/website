@@ -3,23 +3,49 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f8f7f3">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f8f7f3" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1b1e1b" media="(prefers-color-scheme: dark)">
     <meta name="description" content="Robert Chmielowiec — Engineering Manager, Tech Lead and Principal Engineer. Get in touch by email or connect on GitHub and LinkedIn.">
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="chmielowiec.net">
     <meta property="og:title" content="Robert Chmielowiec — Engineering &amp; Leadership">
     <meta property="og:description" content="Engineering Manager | Tech Lead | Principal Engineer. Get in touch and connect.">
     <meta property="og:url" content="https://chmielowiec.net/">
+    <meta property="og:image" content="https://chmielowiec.net/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Robert Chmielowiec — Engineering Manager, Tech Lead, Principal Engineer">
+    <meta property="profile:first_name" content="Robert">
+    <meta property="profile:last_name" content="Chmielowiec">
+    <meta name="twitter:card" content="summary_large_image">
     <title>Robert Chmielowiec — Engineering &amp; Leadership</title>
     <link rel="canonical" href="https://chmielowiec.net/">
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
     <link rel="stylesheet" href="./styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Robert Chmielowiec",
+        "url": "https://chmielowiec.net/",
+        "email": "mailto:robert@chmielowiec.net",
+        "jobTitle": ["Engineering Manager", "Tech Lead", "Principal Engineer"],
+        "image": "https://chmielowiec.net/og-image.png",
+        "sameAs": [
+          "https://github.com/chmielowiec",
+          "https://www.linkedin.com/in/rchmielowiec/"
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="page">
       <header class="site-header">
         <a class="wordmark" href="./" aria-label="Robert Chmielowiec — home">rc<span aria-hidden="true">.</span></a>
-        <a class="header-link" href="mailto:robert@chmielowiec.net">Get in touch <span aria-hidden="true">↗</span></a>
+        <a class="header-link" href="#contact">Get in touch <span aria-hidden="true">↓</span></a>
       </header>
 
       <main id="main">
@@ -27,7 +53,7 @@
           <div class="intro-copy">
             <p class="eyebrow"><span class="small-rule" aria-hidden="true"></span> Engineering &amp; leadership</p>
             <h1 id="intro-title">Robert<br>Chmielowiec<span class="accent">.</span></h1>
-            <p class="headline">Engineering Manager <span class="separator">|</span> Tech Lead <span class="separator">|</span> Principal Engineer</p>
+            <p class="headline">Engineering Manager <span class="separator" aria-hidden="true">|</span> Tech Lead <span class="separator" aria-hidden="true">|</span> Principal Engineer</p>
             <a class="button" href="mailto:robert@chmielowiec.net">Say hello <span aria-hidden="true">↗</span></a>
           </div>
 
@@ -66,8 +92,8 @@
           <div class="contact-details">
             <a class="email-link" href="mailto:robert@chmielowiec.net">robert@chmielowiec.net <span aria-hidden="true">↗</span></a>
             <nav class="social-links" aria-label="Social profiles">
-              <a href="https://github.com/chmielowiec">GitHub <span aria-hidden="true">↗</span></a>
-              <a href="https://www.linkedin.com/in/rchmielowiec/">LinkedIn <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/chmielowiec" rel="me">GitHub <span aria-hidden="true">↗</span></a>
+              <a href="https://www.linkedin.com/in/rchmielowiec/" rel="me">LinkedIn <span aria-hidden="true">↗</span></a>
             </nav>
           </div>
         </section>
